@@ -33,6 +33,11 @@ Then build your image
 > docker build -t myuser/myapp:1.0 .
 ```
 
+Lastly, run it
+```
+> docker run -d -p 80:5000 myuser/myapp:1.0
+```
+
 ## Author
 
 Bob Stockdale
